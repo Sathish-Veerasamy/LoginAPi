@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.form{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+.form>h{
+  font-weight: 45px;
+}
+.form-container{
+  padding: 25px;
+  height: 200px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 145px;
+  border: 3px solid green;
+  border-radius: 25px;
+  margin-top: 0;
+}
+
+.form-container>input,button{
+  border-radius: 10px;
+} 
+.form-container>button{
+  width: 40px;
+ 
+  position: relative;
+  left:130px;
+}

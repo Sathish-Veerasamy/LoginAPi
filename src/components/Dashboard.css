@@ -1,0 +1,24 @@
+.maincontainer {
+  background-color: darkgrey;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    margin: 12px;
+}
+.details h{
+    margin-top: 30px;
+}
